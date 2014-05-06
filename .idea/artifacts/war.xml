@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="war">
+    <output-path>$PROJECT_DIR$/out/artifacts/war</output-path>
+    <root id="archive" name="war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fj22-argentum" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.sun.faces:jsf-api:2.2.6" />
+          <element id="library" level="project" name="com.sun.faces:jsf-impl:2.2.6" />
+          <element id="library" level="project" name="com.thoughtworks.xstream:xstream:1.4.7" />
+          <element id="library" level="project" name="junit:junit:4.11" />
+          <element id="library" level="project" name="org.apache.httpcomponents:httpclient:4.3.3" />
+          <element id="library" level="project" name="org.primefaces:primefaces:4.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="fj22-argentum/web/Web" />
+    </root>
+  </artifact>
+</component>
